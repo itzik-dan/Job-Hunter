@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-	res.json({ message: "Welcome to Itzik linkedin clone API" });
+	res.json({ message: "Welcome to Itzik linkedin clone API site" });
 });
 
 const PORT = process.env.PORT || 5000;
