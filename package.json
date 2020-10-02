@@ -1,14 +1,23 @@
 {
-  "name": "linkedin-clone",
+  "name": "covid-19-job-hunter",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "author": "Itzik",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.2"
   }
 }
