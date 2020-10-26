@@ -33,7 +33,7 @@ const Account = ({ auth: { user }, profile: { profile, loading}, deleteProfile})
           </Link>
           <div  style={{marginTop:'50px'}}>
 	          <button onClick={deleteProfile} className="waves-effect waves-light btn red">
-	            <i class="fas fa-user-times" />{' '}Delete Profile
+	            <i className="fas fa-user-times" />{' '}Delete Profile
 	          </button>
           </div>
         </Fragment>
