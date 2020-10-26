@@ -25,6 +25,10 @@ app.use(passport.session());
 // Define Routes
 // Google auth routes
 require("./routes/api/authRoutes")(app);
+// Jobs routes
+require("./routes/api/jobRoutes")(app);
+// profiles routes
+require("./routes/api/profileRoute.js")(app);
 
 //Serve static assests if in production
 if (process.env.NODE_ENV === 'production') {
